@@ -11,7 +11,7 @@ SERVER-SIDE COMMANDS:
  3. After successful connection, enter command for uploading files to server and downloading files from server.
            
                  a) FOR UPLOADING :
-                       ```upload <filename>```
+                       ``upload <filename>``
                  b) FOR DOWNLOADING : 
                       Enter "get <file_name>" example, get downloadTestFile.pptx
                  c) TERMINATING PROGRAM :
