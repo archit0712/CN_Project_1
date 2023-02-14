@@ -13,6 +13,10 @@ if __name__ == "__main__":
                 print('for uploading enter upload <filename>')
             data = connection_string.split()
             port = int(data[1])
+            if data[0] != 'ftpClient' :
+                print('Command is not correct')
+                break
+
             server.connect((ip,port))
             
         except :

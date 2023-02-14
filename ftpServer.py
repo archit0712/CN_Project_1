@@ -43,6 +43,6 @@ if __name__ == "__main__":
             client.close()
         except:
             client.close()
-            print("Some Error Occured! Please Check File!")
+            print("Some Error Occured! Please Check Command!")
         else :
             continue
